@@ -1,8 +1,8 @@
-name: imgcmp
+name: Optimize Images
 on: pull_request
 jobs:
   build:
-    name: imgcmp
+    name: Run optimization
     runs-on: ubuntu-latest
     steps:
       - uses: 9sako6/imgcmp@master
