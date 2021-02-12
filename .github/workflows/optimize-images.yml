@@ -1,5 +1,8 @@
 name: Optimize Images
-on: pull_request
+on:
+  push:
+    branches:
+      - master
 jobs:
   build:
     name: Run optimization
